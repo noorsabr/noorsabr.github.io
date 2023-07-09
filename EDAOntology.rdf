@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf/"
-     xml:base="https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf/"
+<rdf:RDF xmlns="http://example.com/EDAOntology#"
+     xml:base="http://example.com/EDAOntology#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -12,7 +12,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb"
      xmlns:ruleml="http://www.w3.org/2003/11/ruleml"
      xmlns:SWRLXML="http://www.w3.org/2003/11/swrlx">
-    <owl:Ontology rdf:about="https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf"/>
+    <owl:Ontology rdf:about="http://example.com/EDAOntology"/>
     
 
 
@@ -44,33 +44,33 @@
     
 
 
-    <!-- https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#BoxPlot -->
+    <!-- http://example.com/EDAOntology#BoxPlot -->
 
-    <owl:Class rdf:about="https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#BoxPlot"/>
+    <owl:Class rdf:about="http://example.com/EDAOntology#BoxPlot"/>
     
 
 
-    <!-- https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#Histogram -->
+    <!-- http://example.com/EDAOntology#Histogram -->
 
-    <owl:Class rdf:about="https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#Histogram"/>
+    <owl:Class rdf:about="http://example.com/EDAOntology#Histogram"/>
     
 
 
-    <!-- https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#ParallelCoordinates -->
+    <!-- http://example.com/EDAOntology#ParallelCoordinates -->
 
-    <owl:Class rdf:about="https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#ParallelCoordinates"/>
+    <owl:Class rdf:about="http://example.com/EDAOntology#ParallelCoordinates"/>
     
 
 
-    <!-- https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#PieChart -->
+    <!-- http://example.com/EDAOntology#PieChart -->
 
-    <owl:Class rdf:about="https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#PieChart"/>
+    <owl:Class rdf:about="http://example.com/EDAOntology#PieChart"/>
     
 
 
-    <!-- https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#ScatterPlot -->
+    <!-- http://example.com/EDAOntology#ScatterPlot -->
 
-    <owl:Class rdf:about="https://github.com/noorsabr/noorsabr.github.io/blob/main/EDAOntology.rdf#ScatterPlot"/>
+    <owl:Class rdf:about="http://example.com/EDAOntology#ScatterPlot"/>
 </rdf:RDF>
 
 
