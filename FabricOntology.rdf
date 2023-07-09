@@ -12,9 +12,9 @@
      xmlns:activity="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#"
      xmlns:CSVOntology="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#"
      xmlns:FabricOntology="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#"
-     xmlns:FabricSetupOntology="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#">
+     xmlns:FabricSetupOntology="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf">
-        <owl:imports rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl"/>
         <owl:imports rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf"/>
     </owl:Ontology>
@@ -78,30 +78,30 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/aklen/ontologies/2021/1/hl-fabric-tx#OWLDataProperty_7f952f1f_b473_480a_a598_ff43e25e2c35">
         <rdfs:domain>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:domain>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:domain>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:domain>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:domain>
     </rdf:Description>
@@ -131,30 +131,30 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -166,30 +166,30 @@
     <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -201,30 +201,30 @@
     <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -237,30 +237,30 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -273,30 +273,30 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -350,30 +350,30 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -386,30 +386,30 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -422,30 +422,30 @@
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -489,7 +489,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -520,7 +520,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#0ae75fa5_4ac5_458f_bd89_460920354a24"/>
@@ -533,8 +533,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#a182b221_b798_4208_9e4f_ab36997939fd -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#a182b221_b798_4208_9e4f_ab36997939fd">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -542,7 +542,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c6732bd4_8b55_45df_9296_0c550c10cd88"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b"/>
     </owl:NamedIndividual>
     
 
@@ -614,7 +614,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4822c1e6_e1a0_4fca_8b49_7024e4497f9b"/>
@@ -636,8 +636,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#b7f88038_e020_4a8f_9c53_5f35cd64f1a1 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#b7f88038_e020_4a8f_9c53_5f35cd64f1a1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -645,7 +645,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#e0077a21_869e_4637_875f_d186706e4d94"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c"/>
     </owl:NamedIndividual>
     
 
@@ -653,8 +653,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#bad77ef1_2dd5_4552_aa20_2eb617031fbf -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#bad77ef1_2dd5_4552_aa20_2eb617031fbf">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -666,7 +666,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#dce7b4c6_16cf_474d_996e_aca8bdcbd0c9"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#0916a521_afdf_458b_8b52_24c01121da79"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9b46a9d1_afa7_4b35_a62c_177d38a5cbdf"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3"/>
     </owl:NamedIndividual>
     
 
@@ -693,7 +693,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#3aeca556_2b3c_410f_852d_7476e8955a54"/>
@@ -706,8 +706,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#bcc38155_f338_488e_9908_f27e4625d27d -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#bcc38155_f338_488e_9908_f27e4625d27d">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -716,7 +716,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#ee1b3456_58c9_4937_8592_af11f029a2fa"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#0333eba1_0ae8_4092_901d_01f85c31d4d5"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf"/>
     </owl:NamedIndividual>
     
 
@@ -734,7 +734,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#cac9e9ae_4311_4dd9_b71b_1c60a20be400"/>
@@ -745,8 +745,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c605c55f_6231_4d56_a652_b19a40704813 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c605c55f_6231_4d56_a652_b19a40704813">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -754,7 +754,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#7025fe89_7e16_47f1_9a50_6bcfab417a71"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
     </owl:NamedIndividual>
     
 
@@ -772,7 +772,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#a182b221_b798_4208_9e4f_ab36997939fd"/>
@@ -784,8 +784,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c7fa9cd0_9bc1_4972_a2c7_108b2de9bdf4 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c7fa9cd0_9bc1_4972_a2c7_108b2de9bdf4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -794,7 +794,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#72d10d42_d61d_4cda_b1ae_4859a769f675"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#324db85b_5895_4e66_9efd_105a018ab6d4"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
     </owl:NamedIndividual>
     
 
@@ -802,8 +802,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#ca278a76_71ca_4530_8d6f_066047dd5713 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#ca278a76_71ca_4530_8d6f_066047dd5713">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -812,7 +812,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#cd72bb5a_d02e_4299_9002_46668959fed8"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9b46a9d1_afa7_4b35_a62c_177d38a5cbdf"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3"/>
     </owl:NamedIndividual>
     
 
@@ -820,8 +820,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#cac9e9ae_4311_4dd9_b71b_1c60a20be400 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#cac9e9ae_4311_4dd9_b71b_1c60a20be400">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -833,7 +833,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#02fcb735_8581_4988_a94f_a9a3b3185d58"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#0333eba1_0ae8_4092_901d_01f85c31d4d5"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#84908d18_13ce_437a_9f12_a9c1ce03ae09"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf"/>
     </owl:NamedIndividual>
     
 
@@ -851,7 +851,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#ca278a76_71ca_4530_8d6f_066047dd5713"/>
@@ -872,7 +872,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#04f58542_5970_4723_92e3_a12fc99d3f4e"/>
@@ -895,7 +895,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#f6c93021_25d6_4cfb_9a6c_153b40d6f187"/>
@@ -917,8 +917,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#d3ae8d24_6a00_47a4_8ccd_26339cf5571e -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#d3ae8d24_6a00_47a4_8ccd_26339cf5571e">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -927,7 +927,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#63152aa5_c8f1_47f5_927d_b976ced50f2a"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#dccfdfa1_5985_4a1a_9fc4_2116bd43bc5d"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
     </owl:NamedIndividual>
     
 
@@ -973,7 +973,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#b7f88038_e020_4a8f_9c53_5f35cd64f1a1"/>
@@ -1014,7 +1014,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#08b57f14_03bc_4ee3_a7dc_3a0281535f18"/>
@@ -1036,8 +1036,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#e6bc6537_c668_448c_9da1_28d68d863a56 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#e6bc6537_c668_448c_9da1_28d68d863a56">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1045,7 +1045,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#5a070bc9_b55b_44dc_8a97_15bc48f199f9"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf"/>
     </owl:NamedIndividual>
     
 
@@ -1053,8 +1053,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#eb2cdcba_3e94_42a3_8363_19fdc8500a1c -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#eb2cdcba_3e94_42a3_8363_19fdc8500a1c">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1062,7 +1062,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#6c6e8712_6f20_42a7_b096_96c91f11a047"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3"/>
     </owl:NamedIndividual>
     
 
@@ -1080,7 +1080,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#bcc38155_f338_488e_9908_f27e4625d27d"/>
@@ -1101,7 +1101,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#44fd9fbc_16e8_4eff_b86e_f301dc300c65"/>
@@ -1122,8 +1122,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#f6c93021_25d6_4cfb_9a6c_153b40d6f187 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#f6c93021_25d6_4cfb_9a6c_153b40d6f187">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1135,7 +1135,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#31a52e22_185e_41c9_b412_25f72428c146"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#38e9114e_5c1d_4ef5_8185_25fe02056c63"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#83cc194f_a2e2_4daa_ba51_2b7a9bd225f9"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
     </owl:NamedIndividual>
     
 
@@ -1162,7 +1162,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#957e68f9_9291_4fcd_bc47_2e6bee3b4ef4"/>
@@ -1173,8 +1173,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#0ae75fa5_4ac5_458f_bd89_460920354a24 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#0ae75fa5_4ac5_458f_bd89_460920354a24">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1186,7 +1186,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#f9a625e9_9982_43ae_bd95_ef8bb9fe3996"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#2b018176_9a52_4287_88f8_6ab22924b3a8"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9c563d57_d464_4074_9fa7_50868acbab95"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
     </owl:NamedIndividual>
     
 
@@ -1214,7 +1214,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#820f5839_41e3_4ab8_8d7e_2dc52674c289"/>
@@ -1244,8 +1244,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#04f58542_5970_4723_92e3_a12fc99d3f4e -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#04f58542_5970_4723_92e3_a12fc99d3f4e">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1257,7 +1257,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#dba07d3e_8f66_44e9_a9c7_cf45867c6f1e"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#dccfdfa1_5985_4a1a_9fc4_2116bd43bc5d"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#63b9d042_3994_44b1_b423_2066b1d74e6a"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
     </owl:NamedIndividual>
     
 
@@ -1283,8 +1283,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#08b57f14_03bc_4ee3_a7dc_3a0281535f18 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#08b57f14_03bc_4ee3_a7dc_3a0281535f18">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1293,7 +1293,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#e360b549_be3e_484e_b9c9_bf0e25dabb3a"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9b6c5c49_0957_4f4e_a985_e226ffafe8cc"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b"/>
     </owl:NamedIndividual>
     
 
@@ -1320,7 +1320,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4e44b9df_6105_4efd_848c_f2e133ab0f43"/>
@@ -1340,8 +1340,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#21f373f5_e9f4_408c_b6e7_95f9d3a05cee -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#21f373f5_e9f4_408c_b6e7_95f9d3a05cee">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1349,7 +1349,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#7e79db2e_f8c6_4187_b8ba_9e942f65977a"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e"/>
     </owl:NamedIndividual>
     
 
@@ -1367,7 +1367,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#58660cb4_a623_453b_befa_7845237fc654"/>
@@ -1398,8 +1398,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#3aeca556_2b3c_410f_852d_7476e8955a54 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#3aeca556_2b3c_410f_852d_7476e8955a54">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1408,7 +1408,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#bc2204f5_f617_4ac8_8061_14feae147f6f"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#31a52e22_185e_41c9_b412_25f72428c146"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
     </owl:NamedIndividual>
     
 
@@ -1455,7 +1455,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#39dabe60_904d_4205_ad51_b3e421dfe524"/>
@@ -1477,8 +1477,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#39dabe60_904d_4205_ad51_b3e421dfe524 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#39dabe60_904d_4205_ad51_b3e421dfe524">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1487,7 +1487,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#3468895f_381a_466a_9c16_991909f484b7"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#0fac6034_bdc0_443e_a1cd_281f48e96f35"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c"/>
     </owl:NamedIndividual>
     
 
@@ -1495,8 +1495,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4db5cb99_a54d_4851_a0ee_ffacd9d0e222 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4db5cb99_a54d_4851_a0ee_ffacd9d0e222">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1505,7 +1505,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#48712156_2767_4f11_b28f_42bb922659a8"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#f2218538_8a8f_441e_adb4_c1b845e5e292"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
     </owl:NamedIndividual>
     
 
@@ -1513,8 +1513,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4e44b9df_6105_4efd_848c_f2e133ab0f43 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4e44b9df_6105_4efd_848c_f2e133ab0f43">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1526,7 +1526,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#08a08095_16ec_4533_a133_2e609bd24cc1"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#7d9c47e4_d4b1_4c5e_ae58_c18f20b1dbaf"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#8bffd45d_fce9_4c4a_b803_235291e4dade"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e"/>
     </owl:NamedIndividual>
     
 
@@ -1544,7 +1544,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#7df67b63_2d22_44b3_8272_36276a8cce62"/>
@@ -1556,8 +1556,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#44fd9fbc_16e8_4eff_b86e_f301dc300c65 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#44fd9fbc_16e8_4eff_b86e_f301dc300c65">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1569,7 +1569,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#28724c83_96e8_4492_8dac_8a452789c300"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#44ffb7a5_2be7_48f3_91ca_253efa6482c1"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#64c49f96_3671_4ce5_8cfb_f3bb7ac08d85"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e"/>
     </owl:NamedIndividual>
     
 
@@ -1605,7 +1605,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#57937ac0_c39e_402d_a0b3_6a5ecb08ecc7"/>
@@ -1618,8 +1618,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4822c1e6_e1a0_4fca_8b49_7024e4497f9b -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4822c1e6_e1a0_4fca_8b49_7024e4497f9b">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1628,7 +1628,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#b3e408a8_692c_4861_bed2_258ee0034221"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#e1ed21f7_e918_4ccc_9467_564d0e76e910"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
     </owl:NamedIndividual>
     
 
@@ -1646,7 +1646,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4db5cb99_a54d_4851_a0ee_ffacd9d0e222"/>
@@ -1669,7 +1669,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#e6bc6537_c668_448c_9da1_28d68d863a56"/>
@@ -1680,8 +1680,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#5b1c4f87_efae_4283_904f_b7795e077740 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#5b1c4f87_efae_4283_904f_b7795e077740">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1693,7 +1693,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#b2b87649_f41d_4376_903e_1ebb4aa71cf5"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#b4651d9d_5355_45ea_bca0_f73523f77603"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#324db85b_5895_4e66_9efd_105a018ab6d4"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
     </owl:NamedIndividual>
     
 
@@ -1711,7 +1711,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9f50634b_72e6_406b_8b43_a7fa5f1054c2"/>
@@ -1733,7 +1733,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#73976282_e5ea_43ee_8e4c_165df04e056a"/>
@@ -1746,8 +1746,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#57937ac0_c39e_402d_a0b3_6a5ecb08ecc7 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#57937ac0_c39e_402d_a0b3_6a5ecb08ecc7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1755,7 +1755,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#48fdd2c3_e8e7_4f11_9592_7e6590b364ce"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
     </owl:NamedIndividual>
     
 
@@ -1763,8 +1763,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#58660cb4_a623_453b_befa_7845237fc654 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#58660cb4_a623_453b_befa_7845237fc654">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1776,7 +1776,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#e19bc39b_773f_443d_b703_d0cf2d4924f6"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#f2218538_8a8f_441e_adb4_c1b845e5e292"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#76f99146_9c0b_49ef_959a_353ab989cb34"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
     </owl:NamedIndividual>
     
 
@@ -1784,8 +1784,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#6b6edd43_dd20_4529_961f_23cfe89994ed -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#6b6edd43_dd20_4529_961f_23cfe89994ed">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1793,7 +1793,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#744e1d94_c9bd_4abd_994f_49dd4f618649"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e"/>
     </owl:NamedIndividual>
     
 
@@ -1811,7 +1811,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#eb2cdcba_3e94_42a3_8363_19fdc8500a1c"/>
@@ -1841,7 +1841,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#d3ae8d24_6a00_47a4_8ccd_26339cf5571e"/>
@@ -1874,7 +1874,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#bad77ef1_2dd5_4552_aa20_2eb617031fbf"/>
@@ -1894,8 +1894,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#7df67b63_2d22_44b3_8272_36276a8cce62 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#7df67b63_2d22_44b3_8272_36276a8cce62">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -1903,7 +1903,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#415af444_3f95_4557_addc_deb9652b6304"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
     </owl:NamedIndividual>
     
 
@@ -1921,7 +1921,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#21f373f5_e9f4_408c_b6e7_95f9d3a05cee"/>
@@ -1942,7 +1942,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#93449e01_5ce7_49fd_85c3_80f9347b990f"/>
@@ -1965,7 +1965,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c605c55f_6231_4d56_a652_b19a40704813"/>
@@ -1987,7 +1987,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c7fa9cd0_9bc1_4972_a2c7_108b2de9bdf4"/>
@@ -2000,8 +2000,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#73976282_e5ea_43ee_8e4c_165df04e056a -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#73976282_e5ea_43ee_8e4c_165df04e056a">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -2013,7 +2013,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#29b06104_bafa_49d0_8172_c6ad360151ee"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#743a9dcf_23a0_4530_ac54_2f648678d607"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#78a36ebd_90cd_4fe2_aa59_5f19e2773f16"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c"/>
     </owl:NamedIndividual>
     
 
@@ -2040,7 +2040,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#6b6edd43_dd20_4529_961f_23cfe89994ed"/>
@@ -2089,7 +2089,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#5b1c4f87_efae_4283_904f_b7795e077740"/>
@@ -2102,8 +2102,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#820f5839_41e3_4ab8_8d7e_2dc52674c289 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#820f5839_41e3_4ab8_8d7e_2dc52674c289">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -2112,7 +2112,7 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#015c39fb_ef9a_465c_a5e5_87c4e46c7ce3"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#64c49f96_3671_4ce5_8cfb_f3bb7ac08d85"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e"/>
     </owl:NamedIndividual>
     
 
@@ -2138,8 +2138,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9aa3f31b_c455_4b19_9032_9d6e363657f9 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9aa3f31b_c455_4b19_9032_9d6e363657f9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -2147,7 +2147,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9cd22767_86fa_4299_9bca_65e168c28ff3"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
     </owl:NamedIndividual>
     
 
@@ -2194,7 +2194,7 @@
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ValuesOf"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:ColumnOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9aa3f31b_c455_4b19_9032_9d6e363657f9"/>
@@ -2206,8 +2206,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9f50634b_72e6_406b_8b43_a7fa5f1054c2 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9f50634b_72e6_406b_8b43_a7fa5f1054c2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -2215,7 +2215,7 @@
             </owl:Restriction>
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#5c6feaac_6070_4571_a7ab_350ac04e63c5"/>
-        <FabricSetupOntology:EndOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
+        <FabricSetupOntology:EndOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
     </owl:NamedIndividual>
     
 
@@ -2223,8 +2223,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#93449e01_5ce7_49fd_85c3_80f9347b990f -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#93449e01_5ce7_49fd_85c3_80f9347b990f">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -2236,7 +2236,7 @@
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#3d6e9d8c_de13_406e_ae0e_eed500b2fbbf"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4428a338_5b4f_4586_a3de_7ca1ca671b2c"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9b6c5c49_0957_4f4e_a985_e226ffafe8cc"/>
-        <FabricSetupOntology:DurationOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b"/>
+        <FabricSetupOntology:DurationOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b"/>
     </owl:NamedIndividual>
     
 
@@ -2244,8 +2244,8 @@
     <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#957e68f9_9291_4fcd_bc47_2e6bee3b4ef4 -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#957e68f9_9291_4fcd_bc47_2e6bee3b4ef4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://github.com/noorsabr/noorsabr.github.io/blob/main/CSVOntology.owx#hasColumn"/>
@@ -2254,14 +2254,14 @@
         </rdf:type>
         <CSVOntology:hasColumn rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#fc881c9e_ff3b_4e79_bb3e_abd35eb1a27f"/>
         <FabricOntology:hasPlot rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#8bffd45d_fce9_4c4a_b803_235291e4dade"/>
-        <FabricSetupOntology:StartOf rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e"/>
+        <FabricSetupOntology:StartOf rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3 -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3 -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_0aae5ade_ab27_41a9_b9b4_a8e6b53036f3">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity"/>
         <rdf:type>
@@ -2278,30 +2278,30 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#bad77ef1_2dd5_4552_aa20_2eb617031fbf"/>
@@ -2311,9 +2311,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_19ebe187_4469_40a3_a874_1de4c1d4e6cf">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity"/>
         <rdf:type>
@@ -2330,30 +2330,30 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#cac9e9ae_4311_4dd9_b71b_1c60a20be400"/>
@@ -2363,9 +2363,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity"/>
@@ -2399,47 +2399,47 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
-        <activity:hasParentActivity rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
-        <activity:hasSubactivity rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
-        <activity:hasSubactivity rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
-        <FabricSetupOntology:OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549 rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
+        <activity:hasParentActivity rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
+        <activity:hasSubactivity rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
+        <activity:hasSubactivity rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806"/>
+        <FabricSetupOntology:OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#f6c93021_25d6_4cfb_9a6c_153b40d6f187"/>
         <FabricSetupOntology:hasEnd rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#7df67b63_2d22_44b3_8272_36276a8cce62"/>
         <FabricSetupOntology:hasStart rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#3aeca556_2b3c_410f_852d_7476e8955a54"/>
-        <FabricSetupOntology:metBy rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
+        <FabricSetupOntology:metBy rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
     </rdf:Description>
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_71f84334_8514_4eba_a19c_6604d3e65a1b">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity"/>
         <rdf:type>
@@ -2458,30 +2458,30 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#93449e01_5ce7_49fd_85c3_80f9347b990f"/>
@@ -2491,9 +2491,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65 -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65 -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity"/>
@@ -2539,34 +2539,34 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
-        <activity:hasParentActivity rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
-        <FabricSetupOntology:OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2 rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
+        <activity:hasParentActivity rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
+        <FabricSetupOntology:OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25"/>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#04f58542_5970_4723_92e3_a12fc99d3f4e"/>
         <FabricSetupOntology:hasEnd rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9f50634b_72e6_406b_8b43_a7fa5f1054c2"/>
         <FabricSetupOntology:hasStart rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#d3ae8d24_6a00_47a4_8ccd_26339cf5571e"/>
@@ -2574,9 +2574,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25 -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25 -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_7ecf8ea6_ab44_4a52_be79_a8a24e64ee25">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#SequentialActivity"/>
@@ -2596,34 +2596,34 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
-        <activity:hasSubactivity rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
-        <activity:hasSubactivity rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
+        <activity:hasSubactivity rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+        <activity:hasSubactivity rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_78484321_8bdf_48f0_976d_4ae32f9dba65"/>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#5b1c4f87_efae_4283_904f_b7795e077740"/>
         <FabricSetupOntology:hasEnd rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#9aa3f31b_c455_4b19_9032_9d6e363657f9"/>
         <FabricSetupOntology:hasStart rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c7fa9cd0_9bc1_4972_a2c7_108b2de9bdf4"/>
@@ -2631,9 +2631,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity"/>
         <rdf:type>
@@ -2652,34 +2652,34 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
-        <activity:hasParentActivity rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
-        <FabricSetupOntology:OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2 rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+        <activity:hasParentActivity rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+        <FabricSetupOntology:OWLObjectProperty_6fe9250b_f307_4966_9ffe_6ce1707f03f2 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#58660cb4_a623_453b_befa_7845237fc654"/>
         <FabricSetupOntology:hasEnd rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#c605c55f_6231_4d56_a652_b19a40704813"/>
         <FabricSetupOntology:hasStart rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4db5cb99_a54d_4851_a0ee_ffacd9d0e222"/>
@@ -2687,9 +2687,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_be3a82da_3b18_4ac4_bf12_5062aee3b72e">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity"/>
         <rdf:type>
@@ -2708,30 +2708,30 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#44fd9fbc_16e8_4eff_b86e_f301dc300c65"/>
@@ -2741,9 +2741,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_da0ad6a2_ac0b_43c0_9d9b_563faade584e">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity"/>
         <rdf:type>
@@ -2760,30 +2760,30 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4e44b9df_6105_4efd_848c_f2e133ab0f43"/>
@@ -2793,9 +2793,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_e0556148_87e3_4a74_ba3b_2e041e358c5c">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#AtomicActivity"/>
         <rdf:type>
@@ -2812,30 +2812,30 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#73976282_e5ea_43ee_8e4c_165df04e056a"/>
@@ -2845,9 +2845,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806 -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806 -->
 
-    <rdf:Description rdf:about="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_fadfc210_1a79_4148_b151_981cf06e2806">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#Activity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#CompositeActivity"/>
         <rdf:type rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf#ForkedActivity"/>
@@ -2893,38 +2893,38 @@
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
             </owl:Restriction>
         </rdf:type>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasTemporalData"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasTemporalData"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                <owl:onClass rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
             </owl:Restriction>
         </rdf:type>
-        <activity:hasParentActivity rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
-        <FabricSetupOntology:OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549 rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+        <activity:hasParentActivity rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
+        <FabricSetupOntology:OWLObjectProperty_c81841f6_d98c_4fc3_a116_8c626551b549 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_443ddfce_561d_4150_b775_14ce03a4372d"/>
         <FabricSetupOntology:hasDuration rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#0ae75fa5_4ac5_458f_bd89_460920354a24"/>
         <FabricSetupOntology:hasEnd rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#57937ac0_c39e_402d_a0b3_6a5ecb08ecc7"/>
         <FabricSetupOntology:hasStart rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/#4822c1e6_e1a0_4fca_8b49_7024e4497f9b"/>
-        <FabricSetupOntology:metBy rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
+        <FabricSetupOntology:metBy rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#OWLNamedIndividual_8982d014_9b1e_4863_ba9d_28f0f8f3c3df"/>
     </rdf:Description>
     
 
@@ -2988,7 +2988,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                                <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
                                 <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/dur"/>
                             </rdf:Description>
                         </rdf:first>
@@ -2998,7 +2998,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                                        <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
                                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/st"/>
                                     </rdf:Description>
                                 </rdf:first>
@@ -3008,7 +3008,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                                                <swrl:propertyPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                                                 <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/act"/>
                                                 <swrl:argument2 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/dur"/>
                                             </rdf:Description>
@@ -3019,7 +3019,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                                                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/act"/>
                                                         <swrl:argument2 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/st"/>
                                                     </rdf:Description>
@@ -3155,7 +3155,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasDuration"/>
+                        <swrl:propertyPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasDuration"/>
                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/act"/>
                         <swrl:argument2 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/dur"/>
                     </rdf:Description>
@@ -3166,7 +3166,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                                <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
                                 <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/dur"/>
                             </rdf:Description>
                         </rdf:first>
@@ -3215,7 +3215,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasEnd"/>
+                        <swrl:propertyPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasEnd"/>
                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/act"/>
                         <swrl:argument2 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/en"/>
                     </rdf:Description>
@@ -3226,7 +3226,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#End"/>
+                                <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#End"/>
                                 <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/en"/>
                             </rdf:Description>
                         </rdf:first>
@@ -3275,7 +3275,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#hasStart"/>
+                        <swrl:propertyPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#hasStart"/>
                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/act"/>
                         <swrl:argument2 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/st"/>
                     </rdf:Description>
@@ -3286,7 +3286,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Start"/>
+                                <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Start"/>
                                 <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/st"/>
                             </rdf:Description>
                         </rdf:first>
@@ -3307,7 +3307,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                        <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/dur"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3380,7 +3380,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                        <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/dur"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3453,7 +3453,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#Duration"/>
+                        <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#Duration"/>
                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/dur"/>
                     </rdf:Description>
                 </rdf:first>
@@ -3526,7 +3526,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/noori/ontologies/2023/FabricSetupOntology#TemporalData"/>
+                        <swrl:classPredicate rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricSetupOntology.owl#TemporalData"/>
                         <swrl:argument1 rdf:resource="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/FabricOntology.rdf/tempd"/>
                     </rdf:Description>
                 </rdf:first>
