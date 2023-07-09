@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology/"
-     xml:base="http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology/"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf/"
+     xml:base="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -12,7 +12,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb"
      xmlns:ruleml="http://www.w3.org/2003/11/ruleml"
      xmlns:SWRLXML="http://www.w3.org/2003/11/swrlx">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf"/>
     
 
 
@@ -44,33 +44,33 @@
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#BoxPlot -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#BoxPlot -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#BoxPlot"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#BoxPlot"/>
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#Histogram -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#Histogram -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#Histogram"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#Histogram"/>
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#ParallelCoordinates -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#ParallelCoordinates -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#ParallelCoordinates"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#ParallelCoordinates"/>
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#PieChart -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#PieChart -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#PieChart"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#PieChart"/>
     
 
 
-    <!-- http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#ScatterPlot -->
+    <!-- https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#ScatterPlot -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/noori/ontologies/2023/4/EDAontology#ScatterPlot"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/noorsabr/noorsabr.github.io/main/EDAOntology.rdf#ScatterPlot"/>
 </rdf:RDF>
 
 
